@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+	
+.wrapper{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container{
+  padding: 20px 50px;
+}
+
+.input{
+  width: 400px;
+  border: 3px solid #000000;
+  background: transparent;
+  padding: 15px 30px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 14px;
+  color: #000000;
+}
+
+.book-container	{
+	width: 900px;
+	background-color: #f3f3f3;
+	padding: 30px;
+}
+
+.book-box	{
+	border-bottom-style: ridge;
+	border-colour: #000000;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.account-details{
+	border-bottom-style: ridge;
+	border-colour: #000000;
+	padding-bottom: 10px;
+	width: 100%;
+	position: left;
+	
+	
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000000;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+
+.close-btn{
+  position: absolute;
+  top: 21px;
+  right: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #000000;
+  border: 0px;
+  width: 120px;
+  height: 55px;
+  border-radius: 50px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.email{
+	width: 40%;
+	border-radius: 10px;
+	height: 35px;
+	border-style: ridge;
+}
+
+.pass{
+	width: 40%;
+	border-radius: 10px;
+	height: 35px;
+	border-style: ridge;
+	
+}
+
+.Jumbotron
+{
+	padding:8px 16px;
+	box-shadow:0 2px 5px 0;
+	letter-spacing:4px;
+}
+.Navbar
+{
+	width:100%;
+	colour: #FFFFFF;
+	background-color:#000000;
+	border-bottom-style: ridge;
+	border-colour: #000000;
+	box-shadow:0 2px 5px 0;
+}
+
+.HomeBtn
+{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0'';
+}
